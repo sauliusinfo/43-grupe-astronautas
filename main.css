@@ -60,6 +60,18 @@ body {
     font-weight: normal;
 }
 
+/* .title::before {
+    content: '---';
+} */
+
+.title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #662b8c;
+}
+
 /* .description {
 } */
 
@@ -106,7 +118,7 @@ body {
 }
 
 .social-link {
-    color: blue;
+    color: #662b8c;
     font-size: 30px;
 }
 
