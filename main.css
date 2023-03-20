@@ -120,6 +120,7 @@ body {
 .social-link {
     color: #662b8c;
     font-size: 30px;
+    text-decoration: none;
 }
 
 .copyright {
